@@ -12,7 +12,7 @@ Save your screenshots in **`assets/`** using the filenames below, or change the 
 
 **Question:** *How do I define a Pydantic model with required and optional fields?*
 
-![Streamlit: required and optional fields](assets/demo-01-required-optional.png)
+![Streamlit: required and optional fields](assets/demo-01-required-optional.png.png)
 
 The agent explains `BaseModel`, `Optional`, and `Field` with a short code example.
 
@@ -22,7 +22,7 @@ The agent explains `BaseModel`, `Optional`, and `Field` with a short code exampl
 
 **Question:** *How does field validation work with `@field_validator`?*
 
-![Streamlit: field_validator](assets/demo-02-field-validator.png)
+![Streamlit: field_validator](assets/demo-02-field-validator.png.png)
 
 The agent describes the decorator, validation flow, and a minimal example.
 
@@ -32,7 +32,7 @@ The agent describes the decorator, validation flow, and a minimal example.
 
 **Question:** *What changed in Pydantic v2 for model configuration compared to v1?*
 
-![Streamlit: v2 configuration vs v1](assets/demo-03-v2-config.png)
+![Streamlit: v2 configuration vs v1](assets/demo-03-v2-config.png.png)
 
 The agent summarizes `ConfigDict`, runtime flags, and related v2 changes.
 
