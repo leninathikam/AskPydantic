@@ -6,6 +6,7 @@ This repository contains:
 
 - **`project/`** — homework notebooks (ingest, search, agents, evaluation) and **`project/app/`** — a modular **Streamlit** + **CLI** app that indexes chunked Pydantic docs with [minsearch](https://github.com/alexeygrigorev/minsearch) and answers via [Pydantic AI](https://ai.pydantic.dev/).
 - **`course/`** — parallel course notebooks and **`course/app/`** — FAQ demo for [DataTalksClub/faq](https://github.com/DataTalksClub/faq).
+- **`project/eval/`** / **`course/eval/`** — optional notebooks for **evaluation** workflows (Day 7: portfolio + README metrics).
 
 ## Quick start (Pydantic app)
 
@@ -20,7 +21,7 @@ uv run streamlit run app.py
 uv run python main.py   # CLI
 ```
 
-See **`project/Day_06_homework.ipynb`** and **`project/app/README.md`** for deployment notes.
+See **`project/Day_06_homework.ipynb`** and **`project/app/README.md`** for deployment notes. For polishing the repo for employers, see **`project/Day_07_homework.ipynb`**.
 
 ## Requirements
 
