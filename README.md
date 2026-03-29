@@ -1,6 +1,6 @@
 # AskPydantic
 
-An AI-powered assistant that lets you chat with the [Pydantic](https://github.com/pydantic/pydantic) GitHub repository, search its documentation chunks, and get context-aware answers.
+An AI-powered assistant that lets you chat with the [Pydantic](https://github.com/pydantic/pydantic) GitHub repository, search its code and docs, and get context-aware answers from indexed documentation chunks.
 
 This repository contains:
 
@@ -12,7 +12,7 @@ This repository contains:
 ```bash
 cd project/app
 uv sync
-# Set OPENAI_API_KEY (e.g. copy .env.example to ../.env in repo root)
+# Set OPENAI_API_KEY (e.g. copy .env.example to repo root as .env)
 uv run streamlit run app.py
 ```
 
